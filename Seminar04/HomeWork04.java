@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Scanner;
 
-public class HomeWork06 {
+public class HomeWork04 {
     public static void author() {
         System.out.println("//**********************************\\\\");
         System.out.println("//*********  Created by:  **********\\\\");
@@ -110,7 +110,7 @@ public class HomeWork06 {
                             return age.get(o1) - age.get(o2);
                         }
                     });
-                    
+
                     for (int i : idSort) {
                         System.out.println("******************************");
                         System.out.println("Surname: " + surname.get(i));
